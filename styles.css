@@ -3,3 +3,37 @@
 @media(max-width:900px){.nav-links{gap:13px}.nav-links a{font-size:13px}.hero-grid{gap:22px}.cards{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:1fr 1fr}.footer-grid>div:first-child{grid-column:1/-1}.contact-layout{grid-template-columns:1fr}.split{gap:30px}}
 @media(max-width:720px){.container{width:min(100% - 30px,1120px)}.nav-wrap{min-height:70px}.menu-toggle{display:block}.nav-links{display:none;position:absolute;left:15px;right:15px;top:68px;background:#fff;padding:17px;border:1px solid var(--line);border-radius:18px;flex-direction:column;align-items:stretch;gap:3px}.nav-links.open{display:flex}.nav-links a{padding:10px 12px;border-radius:10px;border-bottom:0}.nav-links a[aria-current=page]{background:var(--teal-light)}.nav-links .nav-cta{text-align:center;margin-top:5px}.hero{padding:54px 0}.hero-grid,.split{grid-template-columns:1fr}.hero-art{min-height:260px;order:-1}.orbit{width:250px}.core{width:130px;height:130px}.core strong{font-size:39px}.label-one{right:-12px}.label-two{left:-12px}.section{padding:57px 0}.section-sm{padding:38px 0}.stats,.cards,.values-grid,.social-grid{grid-template-columns:1fr}.band-inner,.cta-panel{align-items:flex-start;flex-direction:column}.footer-grid{grid-template-columns:1fr;gap:27px}.footer-grid>div:first-child{grid-column:auto}.copyright{flex-direction:column}.copyright span:last-child{text-align:left}.page-hero{padding:48px 0}.visual-panel{min-height:290px}.contact-card{padding:24px}.video-shell{padding:8px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;scroll-behavior:auto!important}}
+
+
+/* Version 0.3 Beta additions */
+.video-frame {
+  display: block;
+  width: 100%;
+  min-height: 315px;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  border-radius: inherit;
+}
+.player-status {
+  margin: 0.75rem 0 0;
+  font-size: 0.95rem;
+}
+.changelog-list {
+  max-width: 860px;
+}
+.changelog-entry {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--border, #d8e0e8);
+}
+.changelog-entry h2 {
+  margin-top: 0.25rem;
+}
+.changelog-entry ol {
+  padding-left: 1.5rem;
+}
+.changelog-entry li {
+  margin: 0.65rem 0;
+}
+.release-date {
+  font-weight: 600;
+}
